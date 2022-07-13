@@ -1,0 +1,83 @@
+
+.navbar{
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.navbar .logo{
+  margin-bottom: 1rem;
+}
+
+.navbar ul{
+  justify-content: center;
+}
+
+.content{
+  display: block;
+  padding: 2rem;
+}
+
+.content .item{
+  display: flex;
+  text-align: left;
+}
+
+.content .item i{
+  margin-right: 2rem;
+  align-self: center;
+}
+
+
+#who{
+  display: block;
+}
+
+#who .who-img{
+  display: none;
+}
+
+#client .items .item img{
+  width: 80%;
+}
+
+#client .items div:last-child{
+  display: none;
+  
+}
+
+.contact{
+  display: block;
+}
+
+.contact .map{
+  display:none;
+}
+@media (max-width:500px) {
+  #showcase .showcase-content .l-heading{
+    font-size: 2rem;
+    margin-top: -100px;
+    
+  }
+  #showcase .showcase-content .lead{
+    font-size: 1rem;
+  }
+
+  .content{
+    display: block;
+    margin-left: -70px;
+    
+  }
+  
+  .content .item{
+    display: flex;
+    text-align: left;
+  }
+  
+  .content .item i{
+    
+    align-self: center;
+  }
+
+
+}

@@ -1,0 +1,13 @@
+.content .item{
+  display: flex;
+  text-align: left;
+}
+
+.content .item i{
+  margin-right: 2rem;
+  align-self: center;
+}
+
+.contact .map{
+  flex:2;   
+}
