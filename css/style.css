@@ -253,3 +253,16 @@ a{
   
   
 }
+
+#fotter .i-color{
+  color:red !important;
+  
+}
+
+#fotter a{
+  color: white;
+}
+
+#fotter a:hover{
+  color: red;
+}
